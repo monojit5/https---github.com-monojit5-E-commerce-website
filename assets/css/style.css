@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body{
+   
+    width: 100%;
+    background-color: black; 
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 50px;
+    border-bottom: 2px solid gray;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    flex-wrap: wrap;
+}
+.nav-h1{
+    color:orange;
+    font-size: 20px;
+}
+.options a{
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.options i{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.hero{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.hero-left{
+    height: 550px;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 190px;
+    
+}
+.hero-left-para{
+    font-size: 18px;
+    margin-bottom: 10px;
+   
+}
+.hero-left-h1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.hero-left-h1 span{
+  color: orange;
+  font-weight:500 ;
+}
+.hero-left-btn button{
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: orange;
+    border: none;
+    border-radius: 20px 80px 80px 20px; 
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.hero-right{
+    height: 550px;
+    width: 50%;
+    overflow: hidden;
+    padding-right: 30px;
+    
+}
+
+.shops{
+    height: 550px;
+    width:100% ;
+}
+.hero-right-pic{
+    padding-top: 60px;
+    margin-right: 30px;
+   
+}
+.shop-heading{
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 1px;
+}
+.shop-heading span{
+    color: orange;
+}
+.shop-boxes{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 70px;
+    flex-wrap: wrap;
+}
+.shop-box-1{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    overflow: hidden;  
+}
+.shops-img{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+.shop-disc{
+   color: black;
+   padding-left: 20px;
+   padding-top: 10px;
+}
+.shops-icons{
+ color: gold;
+ font-size: 25px;
+ padding-left: 20px;
+ padding-top: 2px;
+}
+.shops-btn button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+   cursor: pointer;
+ 
+}
+.shops-btn{
+    margin-left: 180px;
+
+}
+.blogs{
+    background-color: black;
+}
+.blogs-heading{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.blogs-heading span{
+    color: orange;
+}
+.blogs-box{
+    height:400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogs-box-left{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogs-box-right{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-box-left1{
+    height: 350px;
+    width: 500px;
+    display: flex;
+   padding: 10px;
+   border-radius: 25px;
+   border: 1px solid whitesmoke;
+
+}
+.blog-image{
+    height: 320px;
+    width: 250px;
+    background-image: url(../photos/No\ BG1.png);
+    background-size: cover;
+    border-radius: 25px;
+}
+.blogs-text{
+    padding: 70px 7px;
+}
+.blogs-text h2{
+    border: 1px ridge whitesmoke;
+}
+.blogs-text p{
+    width: 260px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+.blog-btn button{
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    border: none;
+    border-radius:20px 80px 80px 20px ;
+    margin-top: 10px;
+    
+}
+.blog-btn a{
+    color: whitesmoke;
+    font-weight: 500;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    border-top: 2px solid gray;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    border-bottom: 2px solid gray;
+}
+.footer h1{
+    font-size: 37px;
+    color: orange;
+}
+.footer-icons{
+    font-size: 30px;
+    padding-right: 50px;
+
+}
+
+.footer-para{
+    font-size: 30px;
+}
